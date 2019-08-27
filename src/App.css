@@ -31,3 +31,28 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-add-todo{
+  width:100%;
+}
+.todo{
+  width:100%;
+  word-wrap: break-word;
+  padding: 8px;
+  border:1px solid gray;
+  margin-top: 8px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  display: inline-block;
+}
+.doneTodo{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.todo:hover{
+  background-color: beige;
+}
+.container-width{
+  width: 100%
+}
